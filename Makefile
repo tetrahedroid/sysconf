@@ -68,3 +68,13 @@ python:
 
 gromacs: python
 	apt install gromacs
+
+
+extra: cuda
+
+cuda:
+	apt -y install nvidia-cuda-toolkit
+	ubuntu-driver install
+	# reboot required.
+
+# 大学のVLANへの接続申請

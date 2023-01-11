@@ -75,7 +75,7 @@ extra: cuda
 
 cuda:
 	apt -y install nvidia-cuda-toolkit
-	ubuntu-driver install
+	ubuntu-drivers install
 	# reboot required.
 
 # 大学のVLANへの接続申請

@@ -8,6 +8,7 @@ FIRSTOFALL:
 
 activate.%:
 	systemctl enable $*
+	systemctl stop $*
 	systemctl start $*
 
 root:
